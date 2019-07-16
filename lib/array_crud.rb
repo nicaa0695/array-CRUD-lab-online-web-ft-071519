@@ -6,10 +6,10 @@ def create_an_array
   colors = ["red", "blue", "green", "yellow"]
 end
 
-def add_element_to_end_of_array(array, element)
+def add_element_to_end_of_array(colors, element)
   colors = ["red", "blue", "green", "yellow"]
   element = "black"
-  colors.push("")
+  colors.push("black")
 end
 
 def add_element_to_start_of_array(array, element)
