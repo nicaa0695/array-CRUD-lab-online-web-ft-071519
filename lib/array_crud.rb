@@ -6,7 +6,7 @@ def create_an_array
   colors = ["red", "blue", "green", "yellow"]
 end
 
-def add_element_to_end_of_array(array, element)
+def add_element_to_end_of_array(color, black)
   colors = ["red", "blue", "green", "yellow"]
   colors.push("black")
 end
